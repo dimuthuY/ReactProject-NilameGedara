@@ -1,0 +1,65 @@
+/* tableStyle.css */
+
+/* Body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Table styling */
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.complaint-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 20px;
+}
+
+.complaint-table th,
+.complaint-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Gray border between rows */
+}
+
+.complaint-table th {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White header text */
+}
+
+.complaint-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+.complaint-table tbody tr:hover {
+    background-color: #ddd; /* Darker gray background on hover */
+}
+
+.complaint-table button {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White button text */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.complaint-table button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.edit-button{
+    margin: 5px;
+}
+
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.5; 
+}
